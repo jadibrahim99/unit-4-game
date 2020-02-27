@@ -101,19 +101,11 @@ const CrystalCollector = function() {
             } else if (currentSum === targetSum) {
                 updateNumWins(1);
     
-                $("#outputMessage").html("Congratulations!<br>Click anywhere to continue.");
-                
-    
-                
-                
                 this.startNewGame();
     
             } else {
                 updateNumLosses(1);
     
-                $("#outputMessage").html("You got greedy!<br>Click anywhere to continue.");
-    
-                
                 this.startNewGame();
     
             }
